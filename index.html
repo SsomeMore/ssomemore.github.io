@@ -3,6 +3,11 @@
 <head>
 <meta charset="utf-8">
 <title>OPTIONS SSOMEMORE HOST 9.00</title>
+		<script>
+			window.applicationCache.ondownloading=function(){document.getElementById("progress").innerHTML="Page Caching Started!!";};
+			window.applicationCache.onprogress=function(a){document.getElementById("progress").innerHTML=(Math.round(100*(a.loaded/a.total)))+"%";};
+			window.applicationCache.oncached=function(){document.getElementById("progress").innerHTML="Page Cached Successfully Don't Forget to Chace the trainer!!";setTimeout(function(){document.getElementById("progress").innerHTML=" Completed , Now please Chacing Trainer !! "; }, 1500);};
+		</script>
 <style type="text/css">
 body {
   background-image: url('img.jpg');
@@ -148,11 +153,6 @@ document.getElementById("clock").innerHTML = (Hour+":"+Minute);
 <body class="bg-darker">
 <div id="container"  style="">
 <span id="date" ></span><span id="clock" ></span><h1 style='font-size:25px;text-align:center;color:yellow;'>PLEASE CHOOSE YOUR FAVORITE HOST SSOMEMORE 9.00</h1>
-		<script>
-			window.applicationCache.ondownloading=function(){document.getElementById("progress").innerHTML="Page Caching Started!!";};
-			window.applicationCache.onprogress=function(a){document.getElementById("progress").innerHTML=(Math.round(100*(a.loaded/a.total)))+"%";};
-			window.applicationCache.oncached=function(){document.getElementById("progress").innerHTML="Page Cached Successfully Don't Forget to Chace the trainer!!";setTimeout(function(){document.getElementById("progress").innerHTML=" Completed , Now please Chacing Trainer !! "; }, 1500);};
-		</script>
 <h1 id=msgs2 style='font-size:25px;text-align:center;color:white;'>Status</h1>
 <div style="text-align:center"  id="MyItems">
 <a href="900/index.html"><button style='font-size:22px;text-align:center;color:yellow' class="pointer" onMouseOver="msgs2.innerHTML='SsomeMore Host Manual Exploit For 9.00'"; onmouseout="msgs2.innerHTML='Status'"  type="button"><B>9.00</B></button></a>
