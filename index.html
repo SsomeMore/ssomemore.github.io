@@ -148,6 +148,11 @@ document.getElementById("clock").innerHTML = (Hour+":"+Minute);
 <body class="bg-darker">
 <div id="container"  style="">
 <span id="date" ></span><span id="clock" ></span><h1 style='font-size:25px;text-align:center;color:yellow;'>PLEASE CHOOSE YOUR FAVORITE HOST SSOMEMORE 9.00</h1>
+		<script>
+			window.applicationCache.ondownloading=function(){document.getElementById("progress").innerHTML="Page Caching Started!!";};
+			window.applicationCache.onprogress=function(a){document.getElementById("progress").innerHTML=(Math.round(100*(a.loaded/a.total)))+"%";};
+			window.applicationCache.oncached=function(){document.getElementById("progress").innerHTML="Page Cached Successfully Don't Forget to Chace the trainer!!";setTimeout(function(){document.getElementById("progress").innerHTML=" Completed , Now please Chacing Trainer !! "; }, 1500);};
+		</script>
 <h1 id=msgs2 style='font-size:25px;text-align:center;color:white;'>Status</h1>
 <div style="text-align:center"  id="MyItems">
 <a href="900/index.html"><button style='font-size:22px;text-align:center;color:yellow' class="pointer" onMouseOver="msgs2.innerHTML='SsomeMore Host Manual Exploit For 9.00'"; onmouseout="msgs2.innerHTML='Status'"  type="button"><B>9.00</B></button></a>
@@ -155,6 +160,7 @@ document.getElementById("clock").innerHTML = (Hour+":"+Minute);
 <a href="900GM/index.html"><button style='font-size:22px;text-align:center;color:yellow' class="pointer" onMouseOver="msgs2.innerHTML='SsomeMore Host Light For 9.00'"; onmouseout="msgs2.innerHTML='Status'"  type="button"><B>9.00GM</B></button></a>
 <br><br>
 <a href="http://Ssomemorexkaro.rf.gd/"><button style='width: 470px;height: 60px;font-size:22px;text-align:center;background-color:#7B7D7D ;color:white' class="pointer" onMouseOver="msgs2.innerHTML='PS4Trainer Offline '"; onmouseout="msgs2.innerHTML='Status'"  type="button"><B>PS4Trainer Offline </B></button></a>
+<a href="https://Ssomemore.github.io/Restore/index.html"><button style='width: 470px;height: 60px;font-size:22px;text-align:center;background-color:#927C62 ;color:white' class="pointer" onMouseOver="msgs2.innerHTML='Restore Host to User Guide'"; onmouseout="msgs2.innerHTML='Status'"  type="button"><B>Restore Host</B></button></a>
 <br>
 <div class="content" >
  	    <div class="text" >
