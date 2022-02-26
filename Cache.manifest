@@ -1,27 +1,17 @@
 CACHE MANIFEST 
 
 CACHE: 
-
-exploit.js
-frontend.js
 goldhen_2.1.2_900.bin
 index.html
+900/index.html
+900GM/index.html
+900L/index.html
 int64.js
-int64b.js
 kexploit.js
-malloc.js
-netcat.js
 Orbis-Toolbox-900.bin
-payload.js
-relocator.js
 rop.js
-ropb2.js
-syscalls.js
-syscalls2.js
-web.html
 webkit.js
 WebRTE.bin
-img.jpg
 
 NETWORK: 
 * 
