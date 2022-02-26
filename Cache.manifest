@@ -9,14 +9,8 @@ index.html
 int64.js
 int64b.js
 kexploit.js
-malloc.js
-netcat.js
-payload.js
-relocator.js
 rop.js
 ropb2.js
-syscalls.js
-syscalls2.js
 webkit.js
 img.jpg
 900/index.html
