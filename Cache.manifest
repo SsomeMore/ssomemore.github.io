@@ -17,6 +17,11 @@ img.jpg
 900GM/index.html
 900L/index.html
 Orbis-Toolbox-900.bin
+malloc.js
+netcat.js
+payload.js
+syscalls.js
+syscalls2.js
 
 NETWORK: 
 * 
