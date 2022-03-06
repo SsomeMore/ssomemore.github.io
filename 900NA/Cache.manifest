@@ -30,8 +30,6 @@ kexploit.js
 LinuxLoader.js
 malloc.js
 mdumper.bin
-mira.js
-mira2.js
 MiraLoader.bin
 netcat.js
 Orbis-Toolbox-900.bin
@@ -50,6 +48,7 @@ web.html
 webkit.js
 WebRTE.bin
 img.jpg
+style.css
 
 NETWORK: 
 * 
